@@ -12,7 +12,6 @@ void 	ra(t_d_linklst *list)
 		tmp->next = NULL;
 		list->tail->next = tmp;
 		list->tail = tmp;
-		put("ra");
 	}
 }
 
@@ -28,7 +27,6 @@ void 	rb(t_d_linklst *list)
 		tmp->next = NULL;
 		list->tail->next = tmp;
 		list->tail = tmp;
-		put("rb");
 	}
 }
 
@@ -36,5 +34,4 @@ void 	rr(t_d_linklst *list_a, t_d_linklst *list_b)
 {
 	ra(list_a);
 	rb(list_b);
-	put("rr");
 }

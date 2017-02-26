@@ -23,14 +23,14 @@ static void     write_in_list(t_d_linklst *list, char **s)
 	tmp = 0;
 	while (s[i])
 	{
-		tmp = ft_atoi(s[i]);
-		if (ft_strcmp(ft_itoa((int)tmp), s[i]) == 0 && find_same(tmp, list) == 0)
+		//tmp = ft_atoi(s[i]);
+		//if (ft_strcmp(ft_itoa((int)tmp), s[i]) == 0 && find_same(tmp, list) == 0)
 			push_front(list, tmp);
-		else
-		{
-			write(2, "Error", 5);
-			exit(WRONG_ARG);
-		}
+		//else
+		//{
+		//	write(2, "Error", 5);
+		//	exit(WRONG_ARG);
+		//}
 		i++;
 	}
 }
@@ -45,8 +45,7 @@ int             main(int argc, char **argv)
 	if (argc > 1)
 	{
 		write_in_list(list_a, argv);
-		printList(list_a);
-		printList(list_a);
+		read_op(list_a, list_b);
 	}
 	else
 		write(1, "\n", 1);

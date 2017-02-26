@@ -1,6 +1,6 @@
 #include "checker.h"
 
-t_d_linklst     *creat(void) // создание листа
+t_d_linklst     *creat(void)
 {
 	t_d_linklst *tmp;
 
