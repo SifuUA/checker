@@ -9,7 +9,7 @@
 # define OUT_OF_MEM 1
 # define WRONG_ARG 2
 # define BUFF_S 10
-# define ALREDY_SORT 3
+//# define ALREDY_SORT 3
 
 typedef long int T;
 
