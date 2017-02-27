@@ -13,7 +13,8 @@ static int      find_same(T num, t_d_linklst *list)
 	}
 	return (0);
 }
-
+asd
+asd
 static void     write_in_list(t_d_linklst *list, char **s)
 {
 	T   i;
@@ -23,14 +24,14 @@ static void     write_in_list(t_d_linklst *list, char **s)
 	tmp = 0;
 	while (s[i])
 	{
-		//tmp = ft_atoi(s[i]);
-		//if (ft_strcmp(ft_itoa((int)tmp), s[i]) == 0 && find_same(tmp, list) == 0)
+		tmp = ft_atoi(s[i]);
+		if (ft_strcmp(ft_itoa((int)tmp), s[i]) == 0 && find_same(tmp, list) == 0)
 			push_front(list, tmp);
-		//else
-		//{
-		//	write(2, "Error", 5);
-		//	exit(WRONG_ARG);
-		//}
+		else
+		{
+			write(2, "Error", 5);
+			exit(WRONG_ARG);
+		}
 		i++;
 	}
 }
