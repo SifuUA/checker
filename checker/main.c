@@ -29,6 +29,8 @@ static void     write_in_list(t_d_linklst *list, char **s)
 		{
 			write(2, "Error", 5);
 			exit(WRONG_ARG);
+
+
 		}
 		i++;
 	}
