@@ -13,8 +13,6 @@ static int      find_same(T num, t_d_linklst *list)
 	}
 	return (0);
 }
-asd
-asd
 static void     write_in_list(t_d_linklst *list, char **s)
 {
 	T   i;
