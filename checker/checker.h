@@ -9,6 +9,14 @@
 # define OUT_OF_MEM 1
 # define WRONG_ARG 2
 # define BUFF_S 10
+
+# define RED     "\x1b[31m"
+# define GREEN   "\x1b[32m"
+# define YELLOW  "\x1b[33m"
+# define BLUE    "\x1b[34m"
+# define MAGENTA "\x1b[35m"
+# define CYAN    "\x1b[36m"
+# define RESET   "\x1b[0m"
 //# define ALREDY_SORT 3
 
 typedef long int T;
