@@ -43,7 +43,7 @@ int             main(int argc, char **argv)
 
 	list_a = creat();
 	list_b = creat();
-	add;
+	add;asdasdasdasdasdasd
 	if (argc > 1)
 	{
 		write_in_list(list_a, argv);
