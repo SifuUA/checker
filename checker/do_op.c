@@ -54,9 +54,9 @@ void	do_op(t_d_linklst *list_a, t_d_linklst *list_b, char *op)
 		rrb(list_b);
 	else if (ft_strcmp(op, "rrr") == 0)
 		rrr(list_a, list_b);
-	ft_putstr(YELLOW"STACK A\n"YELLOW);
+	ft_putstr(YELLOW"STACK A: "YELLOW);
 	printList(list_a);
-	ft_putstr(BLUE"STACK B\n"BLUE);
+	ft_putstr(BLUE"STACK B: "BLUE);
 	printList(list_b);
 	
 }
